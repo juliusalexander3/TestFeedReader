@@ -8,6 +8,8 @@ public class FeedMsg {
 	String updateTime;
 	Content mContent;
 	
+	public FeedMsg(){}
+	
 	public FeedMsg (String id, String title, String UpdateTime, Content mContent){
 		
 		this.id=id;
